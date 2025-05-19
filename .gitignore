@@ -52,3 +52,56 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# 빌드 산출물
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS 코드 디버깅 설정
+.vscode/
+*.launch.json
+
+# Rider / JetBrains IDE
+.idea/
+
+# 사용자 설정 파일
+.vs/
+*.csproj.user
+*.dbmdl
+
+# 패키지 캐시
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# 환경별 파일
+*.log
+*.tlog
+*.tmp
+*.bak
+
+# SQLite DB 및 기타 결과 파일
+coinism.db
+*.db-shm
+*.db-wal
+
+# 설정 파일 (실제 운영 시 secrets 포함 시)
+Config/settings.json
+
+# 전략 DLL (생성된 결과물만, 소스는 포함해도 됨)
+Strategies/*.dll
+Strategies/*.pdb
+
+# OS 별 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test 결과
+TestResults/
+/coinism/coinism/Config/settings.json
