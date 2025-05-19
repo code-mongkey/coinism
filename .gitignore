@@ -90,9 +90,6 @@ coinism.db
 *.db-shm
 *.db-wal
 
-# 설정 파일 (실제 운영 시 secrets 포함 시)
-Config/settings.json
-
 # 전략 DLL (생성된 결과물만, 소스는 포함해도 됨)
 Strategies/*.dll
 Strategies/*.pdb
@@ -104,4 +101,5 @@ desktop.ini
 
 # Test 결과
 TestResults/
-/coinism/coinism/Config/settings.json
+**/settings.json
+
